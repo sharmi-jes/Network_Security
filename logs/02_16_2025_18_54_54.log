@@ -1,0 +1,7 @@
+[ 2025-02-16 18:54:54,946 ] 24 networksecurity.logging - INFO - Logging system initialized successfully!
+[ 2025-02-16 18:54:54,970 ] 20 root - INFO - create data  ingestion class
+[ 2025-02-16 18:54:54,970 ] 22 root - INFO - create a instance variable for data ingestion config values
+[ 2025-02-16 18:54:54,970 ] 29 root - INFO - import data from mongodb
+[ 2025-02-16 18:54:54,970 ] 51 root - INFO - make a features into seperate dir
+[ 2025-02-16 18:54:54,970 ] 65 root - INFO - split the train and test data as 80-20
+[ 2025-02-16 18:54:54,971 ] 84 root - INFO - inataite data ingestion function do all things above

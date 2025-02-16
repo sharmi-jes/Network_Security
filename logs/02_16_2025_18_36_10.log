@@ -1,0 +1,10 @@
+[ 2025-02-16 18:36:10,435 ] 24 networksecurity.logging - INFO - Logging system initialized successfully!
+[ 2025-02-16 18:36:10,440 ] 20 root - INFO - create data  ingestion class
+[ 2025-02-16 18:36:10,440 ] 22 root - INFO - create a instance variable for data ingestion config values
+[ 2025-02-16 18:36:10,440 ] 29 root - INFO - import data from mongodb
+[ 2025-02-16 18:36:10,440 ] 51 root - INFO - make a features into seperate dir
+[ 2025-02-16 18:36:10,440 ] 65 root - INFO - split the train and test data as 80-20
+[ 2025-02-16 18:36:10,440 ] 84 root - INFO - inataite data ingestion function do all things above
+[ 2025-02-16 18:36:10,440 ] 19 root - INFO - do all ingestion files
+[ 2025-02-16 18:36:10,440 ] 21 root - INFO - intaite dta ingestion
+[ 2025-02-16 18:36:15,100 ] 40 root - INFO - srop id col from data
