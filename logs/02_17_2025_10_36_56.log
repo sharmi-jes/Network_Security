@@ -1,0 +1,6 @@
+[ 2025-02-17 10:36:56,135 ] 24 networksecurity.logging - INFO - Logging system initialized successfully!
+[ 2025-02-17 10:36:59,687 ] 17 root - INFO - Initiate the data ingestion
+[ 2025-02-17 10:37:05,251 ] 91 root - INFO - Performed train test split on the dataframe
+[ 2025-02-17 10:37:05,251 ] 93 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[ 2025-02-17 10:37:05,252 ] 101 root - INFO - Exporting train and test file path.
+[ 2025-02-17 10:37:05,448 ] 110 root - INFO - Exported train and test file path.

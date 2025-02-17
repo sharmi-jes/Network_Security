@@ -16,8 +16,28 @@ from sklearn.model_selection import train_test_split
 from dotenv import load_dotenv
 load_dotenv()
 
-MONGO_DB_URL=os.getenv("MONGO_DB_URL")
+MONGO_DB_URL=os.getenv('MONGO_DB_URL')
 
+
+
+from pymongo import MongoClient
+
+# MONGO_DB_URL = "your_mongodb_url"  # Update with actual MongoDB URL
+DATABASE_NAME = "sharmianyum"  # Update with your database name
+COLLECTION_NAME = "network_data"  # Update with your collection name
+
+client = MongoClient(MONGO_DB_URL)
+db = client[DATABASE_NAME]
+collection = db[COLLECTION_NAME]
+
+# Check if MongoDB contains any records
+count = collection.count_documents({})
+print(f"Total records in MongoDB: {count}")
+
+# Fetch a few records to inspect
+sample_data = list(collection.find().limit(5))
+for record in sample_data:
+    print(record)
 
 class DataIngestion:
     def __init__(self,data_ingestion_config:DataIngestionConfig):
@@ -25,6 +45,9 @@ class DataIngestion:
             self.data_ingestion_config=data_ingestion_config
         except Exception as e:
             raise NetworkSecurityException(e,sys)
+        
+
+
         
     def export_collection_as_dataframe(self):
         """
@@ -41,6 +64,7 @@ class DataIngestion:
                 df=df.drop(columns=["_id"],axis=1)
             
             df.replace({"na":np.nan},inplace=True)
+            print(len(df))
             return df
         except Exception as e:
             raise NetworkSecurityException(e,sys)
@@ -52,7 +76,9 @@ class DataIngestion:
             dir_path = os.path.dirname(feature_store_file_path)
             os.makedirs(dir_path,exist_ok=True)
             dataframe.to_csv(feature_store_file_path,index=False,header=True)
+            print(len(dataframe))
             return dataframe
+        
             
         except Exception as e:
             raise NetworkSecurityException(e,sys)
@@ -93,7 +119,7 @@ class DataIngestion:
             dataframe=self.export_collection_as_dataframe()
             dataframe=self.export_data_into_feature_store(dataframe)
             self.split_data_as_train_test(dataframe)
-            dataingestionartifact=DataIngestionArtifact(trained_file_path=self.data_ingestion_config.training_file_path,
+            dataingestionartifact=DataIngestionArtifact(train_file_path=self.data_ingestion_config.training_file_path,
                                                         test_file_path=self.data_ingestion_config.testing_file_path)
             return dataingestionartifact
 
