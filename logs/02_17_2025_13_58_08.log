@@ -1,0 +1,12 @@
+[ 2025-02-17 13:58:08,598 ] 24 networksecurity.logging - INFO - Logging system initialized successfully!
+[ 2025-02-17 13:58:11,931 ] 22 root - INFO - Initiating the data ingestion process
+[ 2025-02-17 13:58:17,330 ] 91 root - INFO - Performed train test split on the dataframe
+[ 2025-02-17 13:58:17,330 ] 93 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[ 2025-02-17 13:58:17,330 ] 101 root - INFO - Exporting train and test file path.
+[ 2025-02-17 13:58:17,460 ] 110 root - INFO - Exported train and test file path.
+[ 2025-02-17 13:58:17,460 ] 24 root - INFO - Data ingestion completed
+[ 2025-02-17 13:58:17,537 ] 31 root - INFO - Initiating the data validation process
+[ 2025-02-17 13:58:17,627 ] 34 root - INFO - Required number of columns: 31
+[ 2025-02-17 13:58:17,627 ] 35 root - INFO - Data frame has columns: 31
+[ 2025-02-17 13:58:17,627 ] 34 root - INFO - Required number of columns: 31
+[ 2025-02-17 13:58:17,627 ] 35 root - INFO - Data frame has columns: 31
