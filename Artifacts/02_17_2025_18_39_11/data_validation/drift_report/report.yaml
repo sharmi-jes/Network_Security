@@ -1,0 +1,93 @@
+Abnormal_URL:
+  drift_status: false
+  p_value: 0.9972361772209787
+DNSRecord:
+  drift_status: false
+  p_value: 0.999999965908459
+Domain_registeration_length:
+  drift_status: false
+  p_value: 0.7626508373574115
+Favicon:
+  drift_status: false
+  p_value: 0.9678129633477458
+Google_Index:
+  drift_status: false
+  p_value: 1.0
+HTTPS_token:
+  drift_status: false
+  p_value: 0.9999988894018609
+Iframe:
+  drift_status: false
+  p_value: 0.9614483549114261
+Links_in_tags:
+  drift_status: false
+  p_value: 0.9783976116108047
+Links_pointing_to_page:
+  drift_status: false
+  p_value: 0.8440980157021072
+Page_Rank:
+  drift_status: false
+  p_value: 1.0
+Prefix_Suffix:
+  drift_status: false
+  p_value: 0.9981098952009998
+Redirect:
+  drift_status: false
+  p_value: 1.0
+Request_URL:
+  drift_status: false
+  p_value: 0.2245984989064026
+Result:
+  drift_status: false
+  p_value: 0.9999999979763055
+RightClick:
+  drift_status: false
+  p_value: 1.0
+SFH:
+  drift_status: false
+  p_value: 1.0
+SSLfinal_State:
+  drift_status: false
+  p_value: 0.999999999973084
+Shortining_Service:
+  drift_status: false
+  p_value: 0.999999999988434
+Statistical_report:
+  drift_status: false
+  p_value: 1.0
+Submitting_to_email:
+  drift_status: false
+  p_value: 0.9998939831095225
+URL_Length:
+  drift_status: false
+  p_value: 0.9999999999999919
+URL_of_Anchor:
+  drift_status: false
+  p_value: 1.0
+age_of_domain:
+  drift_status: false
+  p_value: 0.9219058767460295
+double_slash_redirecting:
+  drift_status: false
+  p_value: 0.9999999881751745
+having_At_Symbol:
+  drift_status: false
+  p_value: 0.72425954076736
+having_IP_Address:
+  drift_status: false
+  p_value: 0.9995088059095283
+having_Sub_Domain:
+  drift_status: false
+  p_value: 0.8798905741504663
+on_mouseover:
+  drift_status: false
+  p_value: 0.7518037259936491
+popUpWidnow:
+  drift_status: false
+  p_value: 0.8579818860591006
+port:
+  drift_status: false
+  p_value: 0.9863226193637473
+web_traffic:
+  drift_status: false
+  p_value: 0.9951111803133278

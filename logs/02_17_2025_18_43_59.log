@@ -1,0 +1,19 @@
+[ 2025-02-17 18:43:59,711 ] 24 networksecurity.logging - INFO - Logging system initialized successfully!
+[ 2025-02-17 18:44:04,478 ] 23 root - INFO - Initiating the data ingestion process
+[ 2025-02-17 18:44:09,856 ] 91 root - INFO - Performed train test split on the dataframe
+[ 2025-02-17 18:44:09,859 ] 93 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[ 2025-02-17 18:44:09,866 ] 101 root - INFO - Exporting train and test file path.
+[ 2025-02-17 18:44:10,006 ] 110 root - INFO - Exported train and test file path.
+[ 2025-02-17 18:44:10,008 ] 25 root - INFO - Data ingestion completed
+[ 2025-02-17 18:44:10,013 ] 32 root - INFO - Initiating the data validation process
+[ 2025-02-17 18:44:10,111 ] 32 root - INFO - Required number of columns:2
+[ 2025-02-17 18:44:10,111 ] 33 root - INFO - Data frame has columns:31
+[ 2025-02-17 18:44:10,111 ] 32 root - INFO - Required number of columns:2
+[ 2025-02-17 18:44:10,111 ] 33 root - INFO - Data frame has columns:31
+[ 2025-02-17 18:44:10,449 ] 34 root - INFO - Data validation completed
+[ 2025-02-17 18:44:10,449 ] 40 root - INFO - intitaing the data transformation
+[ 2025-02-17 18:44:10,504 ] 38 root - INFO - knnimputer is intialised
+[ 2025-02-17 18:44:10,527 ] 47 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-02-17 18:44:10,534 ] 51 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-02-17 18:44:10,534 ] 47 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-02-17 18:44:10,539 ] 51 root - INFO - Exited the save_object method of MainUtils class
