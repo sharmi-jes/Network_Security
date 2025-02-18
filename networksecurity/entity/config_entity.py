@@ -56,12 +56,23 @@ class DataValidationConfig:
 
 class DataTrasformationConfig:
     def __init__(self,training_pipeline_config=TrainingPipelineConfig):
-        self.transformed_dir_name=os.path.join(training_pipeline_config.artifact_dir,training_pipeline.DATA_TRANSFORMATION_VALID_DIR)
+        self.transformed_dir_name=os.path.join(training_pipeline_config.artifact_dir,training_pipeline.DATA_TRANSFORMATION_DIR_NAME)
         self.transformed_train_file_path: str = os.path.join( self.transformed_dir_name,training_pipeline.DATA_TRANSFORMATION_TRAIN_FILE_PATH,
             training_pipeline.TRAIN_FILE_NAME.replace("csv", "npy"),)
         self.transformed_test_file_path: str = os.path.join(self.transformed_dir_name,  training_pipeline.DATA_TRANSFORMATION_TEST_FILE_PATH,
             training_pipeline.TEST_FILE_NAME.replace("csv", "npy"), )
-        self.transformed_object_file_path: str = os.path.join( self.transformed_dir_name, training_pipeline.DATA_TRANSFORMATION__TRANSFORMED_OBJECT_DIR,
+        self.transformed_object_file_path: str = os.path.join( self.transformed_dir_name, training_pipeline.DATA_TRANSFORMATION_TRANSFORMED_OBJECT_DIR,
             training_pipeline.PREPROCESSING_OBJECT_FILE_NAME
             )
+        
+
+class ModelTrainerConfig:
+    def __init__(self,training_pipeline_config:TrainingPipelineConfig):
+        self.model_trainer_dir=os.path.join(training_pipeline_config.artifact_dir,training_pipeline.MODEL_TRAINER_DIR_NAME)
+
+        self.trained_model_dir=os.path.join(self.model_trainer_dir,training_pipeline.MODEL_TRAINER_TRAINED_MODEL_DIR)
+
+        self.expected_score=training_pipeline.MODEL_TRAINER_EXPECTED_SCORE
+
+        self.uderfitting_overfitting_by_threshold=training_pipeline.MODEL_TRAINER_OVER_FIITING_UNDER_FITTING_THRESHOLD
         

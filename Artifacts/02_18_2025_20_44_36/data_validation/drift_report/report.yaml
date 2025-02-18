@@ -1,0 +1,93 @@
+Abnormal_URL:
+  drift_status: false
+  p_value: 1.0
+DNSRecord:
+  drift_status: false
+  p_value: 0.9999888959498077
+Domain_registeration_length:
+  drift_status: false
+  p_value: 1.0
+Favicon:
+  drift_status: false
+  p_value: 0.5500052107185986
+Google_Index:
+  drift_status: false
+  p_value: 1.0
+HTTPS_token:
+  drift_status: false
+  p_value: 1.0
+Iframe:
+  drift_status: false
+  p_value: 0.9992001088769269
+Links_in_tags:
+  drift_status: false
+  p_value: 0.3872051413869312
+Links_pointing_to_page:
+  drift_status: false
+  p_value: 0.9999983994854099
+Page_Rank:
+  drift_status: false
+  p_value: 0.999991733805822
+Prefix_Suffix:
+  drift_status: false
+  p_value: 0.9939782507422378
+Redirect:
+  drift_status: false
+  p_value: 0.9994193854231466
+Request_URL:
+  drift_status: false
+  p_value: 0.9981098952009995
+Result:
+  drift_status: false
+  p_value: 0.9999578103694244
+RightClick:
+  drift_status: false
+  p_value: 1.0
+SFH:
+  drift_status: false
+  p_value: 1.0
+SSLfinal_State:
+  drift_status: false
+  p_value: 0.6849796603415288
+Shortining_Service:
+  drift_status: false
+  p_value: 1.0
+Statistical_report:
+  drift_status: false
+  p_value: 0.9999999439197564
+Submitting_to_email:
+  drift_status: false
+  p_value: 0.5944636111758286
+URL_Length:
+  drift_status: false
+  p_value: 0.9964968277601536
+URL_of_Anchor:
+  drift_status: false
+  p_value: 0.600082139066012
+age_of_domain:
+  drift_status: false
+  p_value: 0.999999999973084
+double_slash_redirecting:
+  drift_status: false
+  p_value: 1.0
+having_At_Symbol:
+  drift_status: false
+  p_value: 0.7786981711104352
+having_IP_Address:
+  drift_status: false
+  p_value: 0.9999578103694244
+having_Sub_Domain:
+  drift_status: false
+  p_value: 0.9999999979763055
+on_mouseover:
+  drift_status: false
+  p_value: 0.990289787988257
+popUpWidnow:
+  drift_status: false
+  p_value: 0.53361638858555
+port:
+  drift_status: false
+  p_value: 0.6169958385940552
+web_traffic:
+  drift_status: false
+  p_value: 0.884074364741792
