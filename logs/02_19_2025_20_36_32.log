@@ -1,0 +1,26 @@
+[ 2025-02-19 20:36:32,449 ] 24 networksecurity.logging - INFO - Logging system initialized successfully!
+[ 2025-02-19 20:36:38,628 ] 25 root - INFO - Initiating the data ingestion process
+[ 2025-02-19 20:37:04,862 ] 91 root - INFO - Performed train test split on the dataframe
+[ 2025-02-19 20:37:04,862 ] 93 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[ 2025-02-19 20:37:04,863 ] 101 root - INFO - Exporting train and test file path.
+[ 2025-02-19 20:37:05,048 ] 110 root - INFO - Exported train and test file path.
+[ 2025-02-19 20:37:05,050 ] 27 root - INFO - Data ingestion completed
+[ 2025-02-19 20:37:05,064 ] 34 root - INFO - Initiating the data validation process
+[ 2025-02-19 20:37:05,176 ] 32 root - INFO - Required number of columns:2
+[ 2025-02-19 20:37:05,176 ] 33 root - INFO - Data frame has columns:31
+[ 2025-02-19 20:37:05,176 ] 32 root - INFO - Required number of columns:2
+[ 2025-02-19 20:37:05,176 ] 33 root - INFO - Data frame has columns:31
+[ 2025-02-19 20:37:05,513 ] 36 root - INFO - Data validation completed
+[ 2025-02-19 20:37:05,514 ] 42 root - INFO - intitaing the data transformation
+[ 2025-02-19 20:37:05,564 ] 38 root - INFO - knnimputer is intialised
+[ 2025-02-19 20:37:05,588 ] 49 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-02-19 20:37:05,592 ] 53 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-02-19 20:37:05,592 ] 49 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-02-19 20:37:05,596 ] 53 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-02-19 20:37:05,598 ] 44 root - INFO - data transformation is completed
+[ 2025-02-19 20:37:05,599 ] 48 root - INFO - Model Training sstared
+[ 2025-02-19 20:43:12,075 ] 49 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-02-19 20:43:12,076 ] 53 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-02-19 20:43:12,076 ] 49 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-02-19 20:43:12,083 ] 53 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-02-19 20:43:12,084 ] 53 root - INFO - Model Training artifact created
