@@ -13,6 +13,8 @@ uvicorn
 python-multipart
 mlflow
 dagshub
+fastapi
+uvicorn
 
 
 -e .

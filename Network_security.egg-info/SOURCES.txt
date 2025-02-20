@@ -18,6 +18,8 @@ networksecurity/entity/__init__.py
 networksecurity/entity/artifact_entity.py
 networksecurity/entity/config_entity.py
 networksecurity/pipeline/__init__.py
+networksecurity/pipeline/predict_pipeline.py
+networksecurity/pipeline/training_pipeline.py
 networksecurity/utils/__init__.py
 networksecurity/utils/main_utils/__init__.py
 networksecurity/utils/main_utils/utils.py

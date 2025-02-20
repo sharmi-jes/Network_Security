@@ -1,0 +1,10 @@
+[ 2025-02-20 21:45:19,207 ] 24 networksecurity.logging - INFO - Logging system initialized successfully!
+[ 2025-02-20 21:45:19,209 ] 7 root - INFO - take the all components
+[ 2025-02-20 21:45:26,126 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-02-20 21:45:26,138 ] 107 dagshub - INFO - Accessing as sharmi-jes
+[ 2025-02-20 21:45:26,740 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/sharmi-jes/Network_Security "HTTP/1.1 200 OK"
+[ 2025-02-20 21:45:27,297 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-02-20 21:45:27,299 ] 107 dagshub - INFO - Initialized MLflow to track repo "sharmi-jes/Network_Security"
+[ 2025-02-20 21:45:27,305 ] 107 dagshub - INFO - Repository sharmi-jes/Network_Security initialized!
+[ 2025-02-20 21:45:27,305 ] 14 root - INFO - take the all config files
+[ 2025-02-20 21:45:27,306 ] 24 root - INFO - take tha all artifacts 
