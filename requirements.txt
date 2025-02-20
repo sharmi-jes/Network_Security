@@ -12,6 +12,7 @@ fastapi
 uvicorn
 python-multipart
 mlflow
+dagshub
 
 
 -e .

@@ -1,0 +1,32 @@
+[ 2025-02-20 19:58:57,177 ] 24 networksecurity.logging - INFO - Logging system initialized successfully!
+[ 2025-02-20 19:59:08,023 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-02-20 19:59:08,032 ] 107 dagshub - INFO - Accessing as sharmi-jes
+[ 2025-02-20 19:59:08,637 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/sharmi-jes/Network_Security "HTTP/1.1 200 OK"
+[ 2025-02-20 19:59:09,221 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-02-20 19:59:09,224 ] 107 dagshub - INFO - Initialized MLflow to track repo "sharmi-jes/Network_Security"
+[ 2025-02-20 19:59:09,225 ] 107 dagshub - INFO - Repository sharmi-jes/Network_Security initialized!
+[ 2025-02-20 19:59:09,232 ] 25 root - INFO - Initiating the data ingestion process
+[ 2025-02-20 19:59:14,759 ] 91 root - INFO - Performed train test split on the dataframe
+[ 2025-02-20 19:59:14,759 ] 93 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[ 2025-02-20 19:59:14,759 ] 101 root - INFO - Exporting train and test file path.
+[ 2025-02-20 19:59:14,906 ] 110 root - INFO - Exported train and test file path.
+[ 2025-02-20 19:59:14,906 ] 27 root - INFO - Data ingestion completed
+[ 2025-02-20 19:59:14,923 ] 34 root - INFO - Initiating the data validation process
+[ 2025-02-20 19:59:15,011 ] 32 root - INFO - Required number of columns:2
+[ 2025-02-20 19:59:15,011 ] 33 root - INFO - Data frame has columns:31
+[ 2025-02-20 19:59:15,011 ] 32 root - INFO - Required number of columns:2
+[ 2025-02-20 19:59:15,011 ] 33 root - INFO - Data frame has columns:31
+[ 2025-02-20 19:59:15,366 ] 36 root - INFO - Data validation completed
+[ 2025-02-20 19:59:15,369 ] 42 root - INFO - intitaing the data transformation
+[ 2025-02-20 19:59:15,426 ] 38 root - INFO - knnimputer is intialised
+[ 2025-02-20 19:59:15,455 ] 49 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-02-20 19:59:15,459 ] 53 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-02-20 19:59:15,459 ] 49 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-02-20 19:59:15,459 ] 53 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-02-20 19:59:15,459 ] 44 root - INFO - data transformation is completed
+[ 2025-02-20 19:59:15,459 ] 48 root - INFO - Model Training sstared
+[ 2025-02-20 20:05:59,834 ] 49 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-02-20 20:05:59,834 ] 53 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-02-20 20:05:59,834 ] 49 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-02-20 20:05:59,864 ] 53 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-02-20 20:05:59,871 ] 53 root - INFO - Model Training artifact created
